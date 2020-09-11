@@ -1,0 +1,16 @@
+name: notebooks_aidapy
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.7
+  - requests
+  - scikit-learn
+  - tensorflow=2.2
+  - ipywidgets
+  - seaborn
+  - pytorch
+  - pip
+  - pip:
+    - aidapy
+
